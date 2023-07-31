@@ -1,12 +1,19 @@
+"""
+This is the first version of the Blazar Proxy API
+"""
 from flask import Blueprint, jsonify, request, url_for
-from ...model import Cat, Vertice, db
 import pandas as pd
+from ...model import Cat, Vertice, db
 
 bp = Blueprint("v1", __name__, url_prefix="/v1")
 
-
 @bp.route("/")
 def v1_info():
+    """
+    Index page for the v1 API
+    Returns:
+        JSON: JSON response with API information
+    """
     return {
         "version": "1.0",
         "description": "This is the first version of the Blazar Proxy API",
@@ -18,6 +25,9 @@ def v1_info():
 
 
 def paginate_and_filter(column):
+    """
+    Paginate and filter a SQLAlchemy query
+    """
     query = db.select(column)
 
     page = db.paginate(
@@ -31,12 +41,12 @@ def paginate_and_filter(column):
     items_query = (
         db.select(column).offset((page.page - 1) * page.per_page).limit(page.per_page)
     )
-    df = pd.read_sql(items_query, db.engine)
+    query_result = pd.read_sql(items_query, db.engine)
 
     return {
         "page": page.page,
         "per_page": page.per_page,
-        "items": df.to_dict(orient="records"),
+        "items": query_result.to_dict(orient="records"),
         "total": page.total,
         "first": page.first,
         "last": page.last,
@@ -60,9 +70,21 @@ def paginate_and_filter(column):
 
 @bp.route("/cats")
 def cats():
+    """
+    CATs endpoint
+    Returns:
+        JSON: JSON response with CATs
+        Pagination information
+    """
     return jsonify(paginate_and_filter(column=Cat))
 
 
 @bp.route("/vertices")
 def vertices():
+    """
+    Vertices endpoint
+    Returns:
+        JSON: JSON response with vertices
+        Pagination information
+    """
     return jsonify(paginate_and_filter(column=Vertice))
