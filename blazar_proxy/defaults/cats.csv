@@ -1,0 +1,115 @@
+id,url,reference
+1OUSX,http://vo.bsdc.icranet.org/ousx/q/cone/scs.xml?,Giommi et al. in preparation!
+2AGILE,http://vo.bsdc.icranet.org/agile/q/cone/scs.xml?,"Bulgarelli et al. 2019, A&A, 627, A13!"
+2BIGB,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FMNRAS%2F493%2F2438%2Fsed&,"Arsioli et al. 2020, MNRAS, 493, 2438!"
+2FHL,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FApJS%2F222%2F5%2F2fhl&,"Ackermann et al. 2016, ApJS, 222, 1!"
+2MASS,http://gsss.stsci.edu/webservices/vo/ConeSearch.aspx?CAT=2MASS&,"Skrutskie et al. 2006, AJ, 131, 1163!"
+2SXPS,http://vo.bsdc.icranet.org/sxps/q/cone/scs.xml?,"Evans et al. 2020, ApJS, 247, 54!"
+3FGL,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermi3fgl&,"Acero et al. 2015, ApJS, 218, 23!"
+3FHL,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermi3fhl&,"The Fermi-LAT Collaboration 2017, ApJS, 323, 18!"
+3HSP,http://vo.bsdc.icranet.org/threehsp/q/cone/scs.xml?,"Chang et al. 2019, A&A, 632, A77!"
+4FGL,,"DR3 The Fermi-LAT Collaboration 2022, arXiv:2201.11184!"
+4FGL-DR3,http://vo.bsdc.icranet.org/fermi4fgl/q/cone/scs.xml?,
+4FGL2,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermilpsc&,
+4LAC,http://vo.bsdc.icranet.org/fermi4lac/q/cone/scs.xml?,
+4XMM,,"DR11 Webb et al. A&A, 641, A136!"
+4XMM-DR11,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=xmmssc&,
+5BZCat,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VII%2F274%2Fbzcat5&,"Massaro et al. 2015, Ap&SS, 357, 75!"
+ABELL,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=abell&,"Abell et al. 1989, ApJS, 70, 1!"
+AKARIBSC,https://irsa.ipac.caltech.edu/SCS?table=akari_fis,"Yamamura et al. 2010, VizieR, II, 298!"
+AKARIPSC,https://irsa.ipac.caltech.edu/SCS?table=akari_irc,
+ALMA,http://vo.bsdc.icranet.org/alma/q/cone/scs.xml?,"Bonato et al. 2019, MNRAS, 485, 1188!"
+AT20G,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FMNRAS%2F402%2F2403%2Fat20gcat&,"Murphy et al. 2010, MNRAS, 402, 2403!"
+ATPMN,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=atpmncat&,"McConnell et al. 2012, MNRAS, 422, 1527!"
+BAT105m,http://vo.bsdc.icranet.org/bat105mon/q/cone/scs.xml?,"Oh et al. 2018, ApJS, 235, 4!"
+BEPPOSAX,http://vo.bsdc.icranet.org/bepposax/q/cone/scs.xml?,"Giommi et al. 2002, Babs. conf.!"
+BMW,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=bmwhricat&,"Panzera et al. 2003, A&A, 399, 351!"
+BROS,http://vo.bsdc.icranet.org/bros/q/cone/scs.xml?,"Itoh et al., in prep!"
+CMA,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=exohgls&,TBD!
+CRATES,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=crates&,"Healey et al. 2007, ApJS, 171, 61! "
+Chandra,,"CSC2 Evans et al. 2010, ApJS, 189, 37!"
+Chandra-CSC2,http://cda.harvard.edu/cscvo/coneSearch?,
+DENIS3,https://irsa.ipac.caltech.edu/SCS?table=denis3,
+F2PSR,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermil2psr&,"The Fermi-LAT Collaboration, 2013!"
+F357cat,http://vo.bsdc.icranet.org/f357all/q/cone/scs.xml?,"Bruzewski et al. 2021, arXiv:2102.07397!"
+F357det,http://vo.bsdc.icranet.org/f357det/q/cone/scs.xml?,"Bruzewski et al. 2021, arXiv:2102.07397!"
+FIRST,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F92%2Ffirst14&,"White et al. 1997, ApJ, 475 479!"
+FMonLC,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermilasp&,Fermi Monitored sources! 
+FermiGRB,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=fermilgrb&,"Ajello et al. 2019, ApJ, 878, 52!"
+FermiMeV,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA+A%2F618%2FA22&,"Principe et al. 2018, A&A, 618, A22! "
+GAIA,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=I%2F337%2Fgaia&,"The Gaia Collaboration 2016, A&A, 595, A2!"
+GALEX,http://galex.stsci.edu/gxWS/ConeSearch/gxConeSearch.aspx?,"Morrissey et al. 2007, ApJS, 173, 682!"
+GB6,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=gb6&,"Gregory et al. 1996, ApJS, 103, 427!"
+GB87,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F14%2Fj2000&,"Gregory et al. 1992, VizieR, VIII/14/j2000!"
+GLEAM,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=gleamegcat&,"Hurley-Walker et al. 2017, MNRAS, 464, 1164!"
+H,,"ATLAS-DR1 Valiante et al. 2016, MNRAS, 462, 3146!  "
+H-ATLAS-DR1,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FMNRAS%2F462%2F3146&,
+H-ATLAS-DR2NGP,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FApJS%2F236%2F30%2Fhatlas2ngp&,
+H-ATLAS-DR2SGP,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FApJS%2F236%2F30%2Fhatlas2sgp&,
+HESS,http://voparis-srv.obspm.fr/srv/ssa-hess_spectrum.php?,
+HSTGSC,http://gsss.stsci.edu/webservices/vo/ConeSearch.aspx?CAT=GSC23&,"Lasker et al. 2008, AJ, 136, 735!"
+IPC2E,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=einstein2e&,"Harris et al. 1990, VizieR, IX/13/2e!"
+IPCSL,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=ipcslew&,"Elvis et al. 1992, ApJS, 80, 257!"
+IRAS,,"PSC IPAC, 1986, VizieR, II, 125!"
+IRAS-PSC,https://irsa.ipac.caltech.edu/SCS?table=iraspsc,
+KUEHR,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=kuehr&,"Kuehr et al. 1981, A&AS, 45, 367!"
+LoTSS,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA+A%2F622%2FA1&,"Shimwell et al. 2019, A&A, 622, A1!"
+MAGIC,http://vo.bsdc.icranet.org/magic/q/ssa/ssap.xml?,TBD!
+MAXI,,TBD!
+MAXIGSC,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FApJS%2F238%2F32%2F3maxi&,
+MAXISSC,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=maxissccat&,
+MCXC,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA%2BA%2F534%2FA109%2Fmcxc&,"Piffaretti et al. 2011, A&A, 534, A109!"
+MST9Y,http://vo.bsdc.icranet.org/mst9y/q/cone/scs.xml?,"Campana et al. 2018, A&A, 619, A23!"
+MilliQuas,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VII%2F290%2Fcatalog&,"(v7.2) Flesch et al. 2015, PASA, 32, e010!"
+NEOWISE,https://irsa.ipac.caltech.edu/SCS?table=neowiser_p1bs_psd,"Mainzer et al. 2014, ApJ, 792, 30!"
+NORTH20,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F17%2Fnorth20&,"White and Becker, 1992, ApJS, 79, 331!"
+NVSS,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=nvss&,"Condon et al. 1998, AJ, 115, 1693!"
+NuBlazar,http://vo.bsdc.icranet.org/nustar/q/cone/scs.xml?,"Middei et al. 2022, MNRAS, 514, 3179!"
+OULC,http://vo.bsdc.icranet.org/ouspectra/q/cone/scs.xml?,"Giommi et al. 2021, MNRAS, 507, 5690!"
+OUSXB,http://vo.bsdc.icranet.org/ousxb/q/cone/scs.xml?,"Giommi et al. 2019, A&A, 631, A116!"
+OUSXG,http://vo.bsdc.icranet.org/ousxg/q/cone/scs.xml?,"Giommi et al. 2020, A&A submitted!"
+PACS70,https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=ppsc_70&,
+PCCS100,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs100ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS143,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs143ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS2,,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS217,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs217ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS353,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs353ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS44,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs044ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCCS70,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pccs070ghz&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PCNT,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA%2BA%2F619%2FA94&,"The Planck Collaboration 2018, A&A, 619, A94!"
+PMN,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=pmn&,"Griffith et al. 1993-1996, VizieR, VIII/38!"
+PSZ2,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA%2BA%2F594%2FA27%2Fpsz2&,"The Planck Collaboration, 2016, A&A, 594, A27!"
+PULSAR,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=atnfpulsar&,"Manchester et al. 2005, AJ, 129, 1993!"
+PanSTARRS,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=II%2F349%2Fps1&,"Flewelling et al. 2020, ApJS, 251, 7!"
+RASS,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=rass2rxs&,"Boller et al. 2016, A&A, 103, 1!"
+RASSBSC,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=IX%2F10A%2F1rxs&,
+RASSFSC,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=rassfsc&,
+SDS82,http://vo.bsdc.icranet.org/sds82/q/cone/scs.xml?,Brandt and Giommi in preparation!
+SDSS,http://skyserver.sdss.org/vo/DR14Cone/sdssConeSearch.asmx/ConeSearch?,"Abolfathi et al. 2018, ApJS, 235, 42!"
+SDSSWHL,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FApJS%2F183%2F197%2Ftable1&,"Wen et al. 2009, ApJS, 183, 197!"
+SMARTS,http://vo.bsdc.icranet.org/smarts/q/cone/scs.xml?,"Bonning et al. 2012, ApJ 756, 13!"
+SPIRE,,"Schulz et al. 2017, arXiv:1706.00448!"
+SPIRE250,https://irsa.ipac.caltech.edu/SCS?table=spsc250,
+SPIRE350,https://irsa.ipac.caltech.edu/SCS?table=spsc350,
+SPIRE500,https://irsa.ipac.caltech.edu/SCS?table=spsc500,
+SUMSS,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F81B%2Fsumss212&,"Manch et al. 2003, MNRAS, 342, 1117!"
+SWXCS,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=swxcscat&,"Liu et al. 2015, ApJS, 216, 2!"
+TGSS150,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=gmrtas150m&,"Intema et al. 2017, A&A, 598, A781!"
+USNO,http://www.nofs.navy.mil/cgi-bin/vo_cone.cgi?CAT=USNO-B1&,"Monet et al. 2003, AJ, 125, 984!"
+UVOT,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=swuvotssc&,"Yershov et al. 2014, Ap&SS, 354, 97!"
+VERITAS,http://vo.bsdc.icranet.org/veritas/q/ssa/ssap.xml?,TBD!
+VLASSQL,http://vo.bsdc.icranet.org/vlassql/q/cone/scs.xml?,"Gordon et al. 2020, RNAAS, 4, 10!"
+VLSSR,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F97%2Fcatalog&,"Lane et al. 2014, MNRAS, 440,327!"
+WGACAT,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=wgacat&,"White et al. 2000, VizieR, IX/31/wgacat!"
+WISE,https://irsa.ipac.caltech.edu/SCS?table=allwise_p3as_psd,"Wright et al. 2010, AJ, 140, 1868!"
+WISEME,https://irsa.ipac.caltech.edu/SCS?table=allwise_p3as_mep,"Wright et al. 2010, AJ, 140, 1868!"
+WISH352,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VIII%2F69A%2Fwish11&,"De Bruce et al. 2002, A&A, 394, 59!"
+XMMOM,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=xmmomsuss&,"Page et al. 2012, MNRAS, 426, 903!"
+XMMSL2,https://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=xmmslewcln&,"Saxton et al. 2008, A&A, 480, 611!"
+XRTDEEP,,Brandt et al. in preparation!
+XRTSPEC,http://vo.bsdc.icranet.org/xrtspec/xrtspec/cone/scs.xml?,"Giommi et al. 2021, MNRAS, 507, 5690!"
+ZTF,https://irsa.ipac.caltech.edu/ibe/search/ztf/products/sci?,
+ZTFLC,https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE%2F298.0025%2F29.87147%2F0.0014&BANDNAME=g&FORMAT=CSV,
+ZWCLUSTERS,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=VII%2F190%2Fzg_ori&,"Zwicky et al. 1968, VizieR, VII/190!"
+eROSITA,,"EDR Brunner et al., 2022, A&A, 661, A1!"
+eROSITA-EDR,http://vizier.u-strasbg.fr/viz-bin/votable/-A?-out.all&-source=J%2FA+A%2F661%2FA1&,

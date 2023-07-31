@@ -1,0 +1,5 @@
+pandas
+openpyxl
+pyarrow
+flask
+flask_sqlalchemy
