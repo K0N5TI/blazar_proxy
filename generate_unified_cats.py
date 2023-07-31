@@ -1,16 +1,22 @@
+"""
+Generate a unified cats.csv and columns.csv file from the cats.ini file and the catrefs.csv file.
+"""
 import configparser
 import pandas as pd
 
 
 def ini_to_df(ini_file):
+    """
+    Parse the cats.ini file and return a dataframe with the following columns:
+    [id, url, columns]
+    """
     config = configparser.ConfigParser(interpolation=None)
     config.read(ini_file)
     # The Dataframe will have the following columns:
     # [id, url, columns]
     optional_columns = ["url", "columns"]
     df_columns = ["id"] + optional_columns
-    df = pd.DataFrame(columns=df_columns)
-    
+    data_frame = pd.DataFrame(columns=df_columns)  # disable=redefined-outer-name,invalid-name
     # Parse the sections in the ini file and create a new dataframe entry for each one
     data = []
     for section in config.sections():
@@ -18,11 +24,9 @@ def ini_to_df(ini_file):
         for col in optional_columns:
             if col in config[section]:
                 row_data.append(config[section][col])
-            else:
-                row_data.append(None)
         data.append(row_data)
-    df = pd.DataFrame(data, columns=df_columns)
-    return df
+    data_frame = pd.DataFrame(data, columns=df_columns)  # disable=invalid-name
+    return data_frame
 
 
 
@@ -34,12 +38,14 @@ if __name__ == "__main__":
     # remove duplicates from both dataframes
     cats_df.drop_duplicates(subset='id', inplace=True)
     ref_df.drop_duplicates(subset='id', inplace=True)
-
-    # The column "columns" in the cats.csv file contains a list of columns that should be used for the
-    # corresponding id. This list is a string, so we need to convert it to a list of strings.
-
+    # The column "columns" in the cats.csv file contains a list of
+    # columns that should be used for the
+    # corresponding id. This list is a string, so we need to convert it
+    # to a list of strings.
     # convert the column "columns" to a list of strings (split by comma)
-    cats_df['columns'] = cats_df['columns'].apply(lambda x: x.split(',') if isinstance(x, str) else x)
+    cats_df['columns'] = cats_df['columns'].apply(
+        lambda x: x.split(',') if isinstance(x, str) else x
+    )
     # create a new dataframe with the columns "id" and "columns"
     columns_df = cats_df[['id', 'columns']]
     # explode the column "columns" to multiple rows
