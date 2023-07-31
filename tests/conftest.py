@@ -7,7 +7,7 @@ def app():
     """
     Create and configure a new app instance for each test.
     """
-    app = create_app('TestingConfig')  # disable=redefined-outer-name
+    app = create_app('TestingConfig')  # pylint: disable=redefined-outer-name
 
     # other setup can go here
 
@@ -17,7 +17,7 @@ def app():
 
 
 @pytest.fixture()
-def client(app):  # disable=redefined-outer-name
+def client(app):  # pylint: disable=redefined-outer-name
     """
     Create a test client for the app.
     """
@@ -25,7 +25,7 @@ def client(app):  # disable=redefined-outer-name
 
 
 @pytest.fixture()
-def runner(app):  # disable=redefined-outer-name
+def runner(app):  # pylint:  disable=redefined-outer-name
     """
     Create a test runner for the app's Click commands.
     """

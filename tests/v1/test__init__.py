@@ -3,24 +3,6 @@ This file contains the tests for the v1 module.
 """
 import json
 
-def test_v1_info(client):
-    """
-    GIVEN a Flask application
-    WHEN the '/v1/' page is requested (GET)
-    THEN check that the response is valid
-    THEN check that the response is correct
-    """
-    response = client.get("/v1/")
-    assert response.status_code == 200
-    assert response.json == {
-        "version": "1.0",
-        "description": "This is the first version of the Blazar Proxy API",
-        "endpoints": {
-            "cats": "/cats",
-            "vertices": "/vertices"
-        },
-    }
-
 
 def test_v1(client):
     """

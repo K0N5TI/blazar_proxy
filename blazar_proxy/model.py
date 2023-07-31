@@ -7,7 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-class Cat(db.Model):
+class Cat(db.Model):  # pylint: disable=too-few-public-methods
     """
     CAT model for the cats table
     """
@@ -18,7 +18,7 @@ class Cat(db.Model):
     def __repr__(self):
         return f"<Cat {self.id}>"
 
-class Vertice(db.Model):
+class Vertice(db.Model):  # pylint: disable=too-few-public-methods
     """
     Model for the vertices table
     
